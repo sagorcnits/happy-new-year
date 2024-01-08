@@ -26,9 +26,8 @@
   font-size: 25px;
   color: #ffffff;
   font-family: "Merriweather", serif;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  padding-bottom: 10px;
 }
 
 .banner-title {
@@ -38,7 +37,7 @@
   font-family: "Merriweather", serif;
   font-style: normal;
   font-weight: 900;
-  line-height: 95px;
+  line-height: 85px;
 }
 
 /* happy new year section start */
@@ -73,6 +72,11 @@
   font-style: normal;
   color: #070211;
   padding: 15px 0;
+}
+
+.new-year-container img {
+  width: 50%;
+  padding-top: 30px;
 }
 
 /* party section style start */
