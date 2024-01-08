@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner-section {
+  width: 80%;
+  height: 450px;
+  margin: auto;
+  background-color: green;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 15px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("Images/Banner\ Image.png");
+}
+
+.banner-head-title {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-title {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* happy new year section start */
+
+.happy-new-year {
+  padding: 70px 0;
+  font-family: "Inter", sans-serif;
+}
+
+.new-year-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.new-year-head-title {
+  font-size: 80px;
+  font-weight: bold;
+  color: #f00;
+  padding: 20px 0;
+}
+
+.new-year-para {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f00;
+}
+
+.new-year-category {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  color: #070211;
+  padding: 15px 0;
+}
+
+/* party section style start */
+.party-section {
+  padding: 40px 0;
+}
+
+.party-container {
+  width: 80%;
+  height: 450px;
+  margin: auto;
+  border-radius: 15px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("Images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.party-content {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.party-head-title {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+  letter-spacing: 7px;
+  line-height: 70px;
+  color: #fff;
+}
+
+.party-descirp {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 400;
+  padding: 16px 0;
+}
+
+.party-btn {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  transition: all 0.4s;
+  margin-left: 50px;
+}
+
+.party-btn:hover {
+  color: orange;
+}
+
+/* date and time section start */
+
+.date-section {
+  padding: 40px 0;
+}
+
+.date-container {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  padding: 60px 0;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  border-radius: 15px;
+}
+
+.date-container h3 span {
+  color: #f00;
+}
+
+.date-container button {
+  padding: 12px 30px;
+  background-color: #f00;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.date-container button:hover {
+  background-color: black;
+}
+
+/* comming soon start  */
+
+.comming-soon-section {
+  padding: 40px 0;
+}
+
+.comming-soon-container {
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.box1-title {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: #f00;
+  text-transform: uppercase;
+}
+
+.box1-head-title {
+  font-size: 40px;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.box1-descrip {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 14px;
+}
+
+.comming-img-box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #f00;
+  border-radius: 50%;
+}
+
+.box3-head-title {
+  color: #f00;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.box3-descrip {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 0;
+}
