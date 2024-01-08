@@ -214,6 +214,7 @@
   color: rgba(7, 2, 17, 0.6);
   font-family: "Inter";
   font-size: 14px;
+  line-height: 21px;
 }
 
 .comming-img-box {
@@ -237,4 +238,121 @@
   font-size: 14px;
   line-height: 21px;
   padding: 10px 0;
+}
+
+/* holiday section start */
+
+.holiday-section {
+  padding: 40px 0;
+}
+
+.holiday-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.holiday-container h4 {
+  font-family: "Inter";
+  color: #070211;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.holiday-container h1 {
+  font-size: 60px;
+  color: #070211;
+
+  font-family: "merriweather", serif;
+  font-weight: bolder;
+}
+
+.holiday-container h1 span {
+  color: #f00;
+}
+
+.holiday-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 15px 0;
+}
+
+.holiday-image-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  background-image: url("Images/Rectangle 1.png"), url("Images/Rectangle 2.png");
+  background-repeat: no-repeat;
+  background-position: top right, bottom;
+  background-size: 30%, 100% 173px;
+  margin-top: 50px;
+}
+
+.holiday-image-box1 {
+  padding-top: 100px;
+  width: 50%;
+}
+
+.holiday-image-box2 {
+  padding-top: 70px;
+  padding-right: 100px;
+  width: 50%;
+}
+
+/* portfolio scetion style satrt */
+
+.portfolio-section {
+  padding: 50px 0;
+}
+
+.portfolio-container {
+  width: 80%;
+  margin: auto;
+}
+
+.portfolio-container h4 {
+  font-size: 17px;
+  font-family: "Inter";
+  font-family: 500;
+  color: #f00;
+}
+
+.portfolio-container h2 {
+  font-size: 40px;
+  font-family: "merriweather", serif;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.portfolio-container p {
+  font-size: 15px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.card {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card img {
+  width: 100%;
+  transition: all 0.5s;
+  /* transform: scale(1); */
+}
+
+.card:hover img {
+  transform: scale(1.4);
 }
