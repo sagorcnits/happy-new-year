@@ -350,9 +350,131 @@
 .card img {
   width: 100%;
   transition: all 0.5s;
-  /* transform: scale(1); */
 }
 
 .card:hover img {
   transform: scale(1.4);
+}
+
+/* subscribe section style start */
+
+.subscribe-section {
+  padding: 50px 0;
+}
+
+.subscribe-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 50px 0;
+}
+
+.subscribe-container h1 {
+  font-size: 50px;
+  font-family: "merriweather", serif;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.subscribe-container p {
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.6);
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.subscribe-input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-container input[type="email"] {
+  padding: 15px 20px;
+  border: none;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  width: 300px;
+}
+
+.subscribe-container input[type="email"]:focus {
+  outline: none;
+}
+
+.subscribe-container input[type="button"] {
+  padding: 15px 30px;
+  border: none;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #f00;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.subscribe-container input[type="button"]:hover {
+  background-color: #070211;
+}
+
+/* footer section style start */
+
+footer {
+  padding-top: 50px;
+  background-color: #070211;
+  color: #fff;
+  font-family: "Inter";
+  height: 400px;
+}
+
+.footer-container {
+  width: 80%;
+  margin: auto;
+}
+
+.footer-row1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-row1 p {
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.footer-row1 img {
+  width: 17px;
+}
+
+.footer-row1-contact div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 26px;
+  padding-right: 70px;
+}
+
+.footer-row2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 30px 0;
+}
+
+.footer-row2 span {
+  cursor: pointer;
+  width: 50px;
+}
+
+.footer-row3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
 }
