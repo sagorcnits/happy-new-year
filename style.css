@@ -217,8 +217,8 @@
 .box1-descrip {
   color: rgba(7, 2, 17, 0.6);
   font-family: "Inter";
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .comming-img-box {
@@ -239,9 +239,10 @@
 
 .box3-descrip {
   color: rgba(7, 2, 17, 0.6);
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 26px;
   padding: 10px 0;
+  font-family: "Inter";
 }
 
 /* holiday section start */
@@ -332,7 +333,7 @@
 }
 
 .portfolio-container p {
-  font-size: 15px;
+  font-size: 17px;
   color: rgba(7, 2, 17, 0.6);
   font-family: "Inter";
   line-height: 26px;
