@@ -443,7 +443,7 @@ footer {
   background-color: #070211;
   color: #fff;
   font-family: "Inter";
-  height: 400px;
+  height: auto;
 }
 
 .footer-container {
@@ -554,6 +554,7 @@ footer {
     line-height: 20px;
   }
 
+  .footer-row1,
   .comming-soon-container {
     flex-direction: column;
     gap: 20px;
