@@ -43,7 +43,7 @@
 /* happy new year section start */
 
 .happy-new-year {
-  padding: 70px 0;
+  /* margin: 80px 0; */
   font-family: "Inter", sans-serif;
 }
 
@@ -581,5 +581,57 @@ footer {
 
   .holiday-image-box2 img {
     width: 100px;
+  }
+
+  .footer-row2 img {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .date-container,
+  .party-container,
+  .banner-section {
+    width: 95%;
+    height: 400px;
+    padding: 20px;
+  }
+  .new-year-container,
+  .footer-container,
+  .subscribe-container,
+  .portfolio-container,
+  .comming-soon-container,
+  .holiday-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .footer-row1,
+  .comming-soon-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .holiday-image-box1 img {
+    width: 250px;
+  }
+
+  .holiday-image-container {
+    height: auto;
+    background-image: url("Images/Rectangle 1.png"),
+      url("Images/Rectangle 2.png");
+    background-size: 40% 190px, 100% 124px;
+  }
+
+  .holiday-image-box2 {
+    padding-top: 20px;
+  }
+
+  .holiday-image-box2 img {
+    width: 150px;
+  }
+
+  .footer-row2 img {
+    width: 50px;
   }
 }
